@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script defer src="main.js"></script>
+    <title>warTEST</title>
+  </head>
+  <body>
+    <nav>
+      <button id="shuffle">SHUFFLE</button><br>
+      <button id="deal-combat">PICKUP COMBAT DECK</button><br>
+      <button id="commit">COMMIT WAR TEAM</button><br>
+      <button id="fight">FIGHT!!!!!!</button><br>
+      <button id='kill'>SEND THE DEAD</button><br>
+    </nav>
+    
+    <div id="cpuCombatArea">
+      <img src="assets/backs/blue.svg" alt="playCard" class="cpu-card1 cards">
+      <img src="assets/backs/blue.svg" alt="playCard" class="cpu-card2 cards">
+      <img src="assets/backs/blue.svg" alt="playCard" class="cpu-card3 cards">
+      <img src="assets/backs/blue.svg" alt="playCard" class="cpu-card4 cards">
+      <img src="assets/backs/blue.svg" alt="playCard" class="cpu-card5 cards"><br />
+    </div>
+
+    <div id="playArea">
+      <img src="assets/backs/blue.svg" alt="cpu-Card1" class="cpu-card-area1 cards ">
+      <img src="assets/backs/blue.svg" alt="cpu-Card2" class="cpu-card-area2 cards ">
+      <img src="assets/backs/blue.svg" alt="cpu-Card3" class="cpu-card-area3 cards ">
+      <img src="assets/backs/blue.svg" alt="cpu-Card4" class="cpu-card-area4 cards ">
+      <img src="assets/backs/blue.svg" alt="cpu-Card5" class="cpu-card-area5 cards "><br />
+      <img src="assets/backs/blue.svg" alt="Card1" class="player-card-area1 cards ">
+      <img src="assets/backs/blue.svg" alt="Card2" class="player-card-area2 cards ">
+      <img src="assets/backs/blue.svg" alt="Card3" class="player-card-area3 cards ">
+      <img src="assets/backs/blue.svg" alt="Card4" class="player-card-area4 cards ">
+      <img src="assets/backs/blue.svg" alt="Card5" class="player-card-area5 cards "><br />
+      
+      <div id="discard">
+        <img src="assets/discardpile.png" class="graveyard cards" alt="graveyard" ><br />
+        <img src="assets/backs/blue.svg" class="cards" id="deadCards" alt="dead cards">
+      </div>
+    </div>
+
+    <div id="playerCombatArea" >
+      <img src="assets/backs/blue.svg" alt="playCard" class="play-card1 cards">
+      <img src="assets/backs/blue.svg" alt="playCard" class="play-card2 cards">
+      <img src="assets/backs/blue.svg" alt="playCard" class="play-card3 cards">
+      <img src="assets/backs/blue.svg" alt="playCard" class="play-card4 cards">
+      <img src="assets/backs/blue.svg" alt="playCard" class="play-card5 cards"><br />
+    </div>
+
+    <div id="battle-info" >
+    </div>
+    <div id="winnerCircle">
+      <!-- winner message -->
+      <p id="winner"></p>
+    </div>
+  </body>
+</html>
